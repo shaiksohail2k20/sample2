@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>welcome</title>
+	<link rel="stylesheet" href=".css">
+	<style>
+	body{
+	background-color:red;
+	}
+	.a{
+	height:100%;
+	width:100%;
+	}
+	.combine{
+	animation:about 4s alternate-reverse linear 1s infinite;
+	
+	}
+	@keyframes about{
+    0% {transform:rotate(0deg)}
+    25% {transform:rotate(30deg)}
+    50% {transform:rotate(45deg)}
+    75% {transform:rotate(60deg)}
+    100% {transform:rotate(90deg)}
+	</style>
+</head>
+<body>
+<div class="a">
+<svg height="600" width="650">
+<g class="combine">
+<circle cx="250" cy="100" r="35" fill="white"/>
+<circle cx="400" cy="100" r="35" fill="white"/>
+<circle cx="250" cy="100" r="30" fill="black"/>
+<circle cx="400" cy="100" r="30" fill="black"/>
+<circle cx="325" cy="125" r="70" fill="white"/>
+<ellipse cx="325" cy="330" rx="200" ry="150" fill="white"/>
+<ellipse cx="275" cy="525" rx="30" ry="50" fill="black"/>
+<ellipse cx="375" cy="525" rx="30" ry="50" fill="black"/>
+<ellipse cx="575" cy="330" rx="50" ry="40" fill="black"/>
+<ellipse cx="75" cy="330" rx="50" ry="40" fill="black"/>
+<text x="200" y="350" fill="black" style="font-size:50px;">WELCOME</text>
+<ellipse cx="310" cy="10" rx="15" ry="25" fill="black" style="transform:rotate(20deg)"/>
+<ellipse cx="230" cy="-300" rx="25" ry="15" fill="black" style="transform:rotate(70deg)"/>
+<ellipse cx="310" cy="10" rx="9" ry="18" fill="white" style="transform:rotate(20deg)"/>
+<ellipse cx="230" cy="-300" rx="18" ry="9" fill="white" style="transform:rotate(70deg)"/>
+<ellipse cx="310" cy="10" rx="7" ry="9" fill="black" style="transform:rotate(20deg)"/>
+<ellipse cx="230" cy="-300" rx="9" ry="7" fill="black" style="transform:rotate(70deg)"/>
+<ellipse cx="325" cy="155" rx="40" ry="15" fill="black"/>
+</g>
+</svg>
+</div>
+
+</body>
+</html>
